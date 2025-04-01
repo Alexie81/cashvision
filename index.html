@@ -4,27 +4,101 @@
   <head>
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
 <!-- Bootstrap CSS -->
-<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
 
     <title>CashVision</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="logo/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        CashVision
+      </a>
+        <!-- Butonul de toggle -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Clienti</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Incasari
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Facturi emise</a>
+              <a class="dropdown-item" href="#">Plati primite</a>
+              <a class="dropdown-item" href="#">Adauga incasare</a>
+              <a class="dropdown-item" href="#">Incasari pe luna</a>
+              <a class="dropdown-item" href="#">Incasari totale</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plati
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+              <a class="dropdown-item" href="#">Facturi de achitat</a>
+              <a class="dropdown-item" href="#">Plati efectuate</a>
+              <a class="dropdown-item" href="#">Adauga plata</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Previziuni & Analize
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item" href="#">Analiza Cash-Flow</a>
+              <a class="dropdown-item" href="#">Raport lunar</a>
+              <a class="dropdown-item" href="#">Predictii financiare</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Rapoarte
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+              <a class="dropdown-item" href="#">Rapoarte financiare</a>
+              <a class="dropdown-item" href="#">Export date</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Setari
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
+              <a class="dropdown-item" href="#">Configurare cont</a>
+              <a class="dropdown-item" href="#">Preferinte aplicatie</a>
+              <a class="dropdown-item" href="#">Gestiune utilizatori</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <h1>Hello World!</h1>
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
     and Electron <span id="electron-version"></span>.
 
-    <button class="btn btn-primary" id="btn">Click Me</button>
+    <button class="btn btn-primary" id="btn">Click Me</button> -->
 
     <!-- You can also require other files to run in this process -->
-      <!-- jQuery -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <!-- Popper.js (necesar pentru Bootstrap) -->
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+     <script src="js/main.js"></script>
+  </body>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
   </body>
 </html>

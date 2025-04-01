@@ -1,0 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+.navbar-brand {
+    padding-left: 20px;
+}
+.navbar-toggler {
+    margin-right: 20px;
+}

@@ -6,3 +6,7 @@ $(document).ready(function(){
         alert("Bootstrap și jQuery funcționează!");
     });
 });
+
+$(document).ready(function () {
+    $('.dropdown-toggle').dropdown();
+});
