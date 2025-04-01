@@ -1,0 +1,32 @@
+{
+  "name": "cashvision",
+  "version": "1.0.0",
+  "description": "CashVision este o aplicație AI pentru gestionarea cash flow-ului, previziuni financiare și optimizare afaceri.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexie81/cashvision.git"
+  },
+  "keywords": [
+    "business",
+    "ai"
+  ],
+  "author": "Alexie Popescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alexie81/cashvision/issues"
+  },
+  "homepage": "https://github.com/Alexie81/cashvision#readme",
+  "devDependencies": {
+    "electron": "^35.1.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
+  }
+}
